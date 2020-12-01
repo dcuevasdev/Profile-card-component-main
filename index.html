@@ -4,36 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Profile card component</title>
-
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <main>
+    <main class="main">
       <section class="card">
         <div class="card__background"></div>
         <div class="card__information">
           <figure>
-            <img src="/images/image-victor.jpg" alt="" />
+            <img src="/images/image-victor.jpg" alt="Perfil" />
           </figure>
-          <h2>Victor Crest 26</h2>
+          <h2>Victor Crest <i>26</i></h2>
           <p>London</p>
         </div>
         <div class="card__social">
@@ -52,11 +46,13 @@
         </div>
       </section>
     </main>
-    <footer class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Daniel Cuevas</a>.
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Daniel Cuevas</a>.
+      </div>
     </footer>
   </body>
 </html>
