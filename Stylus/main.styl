@@ -17,6 +17,30 @@ body
   height: 100vh
   background-color: Dark-cyan
 
+.background-right
+  width: 978px
+  height: 978px
+  position: fixed
+  bottom: 50%
+  right: 50%
+  transform: translate(5%, 5%)
+  background-image: url(/images/bg-pattern-top.svg)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.background-left
+  width: 978px
+  height: 978px
+  position: fixed
+  top: 50%
+  left: 50%
+  transform: translate(-5%, -5%)
+  background-image: url(/images/bg-pattern-bottom.svg)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
 .main
   width: 90%
   height: 95%
@@ -32,6 +56,7 @@ body
   text-align: center
   border-radius: 10px
   background-color:white
+  //box-shadow: 5px 5px 10px Desaturated-blue;
   &__background
     width: 100%
     height: 116px
@@ -55,7 +80,7 @@ body
     h2
       padding-top: 62px
       font-size: 1.8rem
-      color Desaturated-blue
+      color: Desaturated-blue
       i
         font-style: normal
         color: Dark-blue
@@ -79,7 +104,9 @@ body
       color Dark-blue
 
 .attribution
-  font-size: 11px
   text-align: center
-  a 
+  font-size: 1.1rem
+  color: Desaturated-blue
+  a
+    text-decoration: none
     color: hsl(228, 45%, 44%)

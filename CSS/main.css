@@ -12,6 +12,30 @@ body {
   height: 100vh;
   background-color: #19a2ae;
 }
+.background-right {
+  width: 978px;
+  height: 978px;
+  position: fixed;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(5%, 5%);
+  background-image: url("/images/bg-pattern-top.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.background-left {
+  width: 978px;
+  height: 978px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, -5%);
+  background-image: url("/images/bg-pattern-bottom.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .main {
   width: 90%;
   height: 95%;
@@ -83,9 +107,11 @@ body {
   color: #6a6f81;
 }
 .attribution {
-  font-size: 11px;
   text-align: center;
+  font-size: 1.1rem;
+  color: #2d3248;
 }
 .attribution a {
+  text-decoration: none;
   color: #3e52a3;
 }
