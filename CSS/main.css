@@ -19,7 +19,7 @@ body {
   bottom: 50%;
   right: 50%;
   transform: translate(5%, 5%);
-  background-image: url("/images/bg-pattern-top.svg");
+  background-image: url("images/bg-pattern-top.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-5%, -5%);
-  background-image: url("/images/bg-pattern-bottom.svg");
+  background-image: url("images/bg-pattern-bottom.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@ body {
 .card__background {
   width: 100%;
   height: 116px;
-  background-image: url("/images/bg-pattern-card.svg");
+  background-image: url("images/bg-pattern-card.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
