@@ -26,11 +26,11 @@ En el siguiente link puedes ver la [web del challenge](https://dcuevas24.github.
 
 ### Desktop 💻
 
-![](https://i.imgur.com/NZC3dPp.png)
+![](https://i.imgur.com/NKqTGkk.png)
 
 ### Mobile 📱
 
-![](https://i.imgur.com/GTGyV2d.png)
+![](https://i.imgur.com/OuAluan.png)
 
 ## 🛠️ Construido con:
 
